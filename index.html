@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio | InfoDerecho Colombia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__bar">
+      <a class="logo" href="index.html">
+        <span class="logo__icon"><img src="assets/icons/scale.svg" alt=""></span>
+        <span class="logo__text">
+          <span class="logo__name">InfoDerecho</span>
+          <span class="logo__sub">COLOMBIA</span>
+        </span>
+      </a>
+      <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <img src="assets/icons/menu.svg" alt="">
+      </button>
+    </div>
+    <nav class="nav" aria-label="Principal">
+      <a class="nav__tab is-active" href="index.html" aria-current="page">Inicio</a>
+      <a class="nav__tab" href="pages/checklist.html">Checklist de Ayudas</a>
+      <a class="nav__tab" href="pages/programas.html">Directorio de Programas</a>
+      <a class="nav__tab" href="pages/calculadora.html">Calculadora de Pobreza</a>
+      <a class="nav__tab" href="pages/acerca.html">Sobre el Proyecto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <h1>Descubra los subsidios y apoyos del Estado colombiano</h1>
+        <p>Le ayudamos a consultar de forma sencilla, anónima e independiente si su hogar califica para programas de salud, educación, alimentación y vivienda.</p>
+        <div class="hero__ctas show-desktop">
+          <a class="btn" href="pages/checklist.html"><img src="assets/icons/list-check.svg" alt=""><span>Empezar Checklist de Ayudas</span></a>
+          <a class="btn" href="pages/programas.html"><img src="assets/icons/folder-archive.svg" alt=""><span>Ver Programas Disponibles</span></a>
+          <a class="btn" href="pages/calculadora.html"><img src="assets/icons/calculator.svg" alt=""><span>Calcular Línea de Pobreza</span></a>
+        </div>
+      </div>
+      <div class="hero__image-box">
+        <picture>
+          <source media="(min-width: 960px)" srcset="assets/img/hero-desktop.png">
+          <img src="assets/img/hero-mobile.png" alt="Familia colombiana en su hogar" loading="lazy">
+        </picture>
+      </div>
+    </section>
+
+    <section class="shortcuts">
+      <h2>Herramientas gratuitas</h2>
+      <a class="btn" href="pages/checklist.html"><img src="assets/icons/list-check.svg" alt=""><span>Empezar Checklist de Ayudas</span></a>
+      <a class="btn" href="pages/programas.html"><img src="assets/icons/folder-archive.svg" alt=""><span>Ver Programas Disponibles</span></a>
+      <a class="btn" href="pages/calculadora.html"><img src="assets/icons/calculator.svg" alt=""><span>Calcular Línea de Pobreza</span></a>
+    </section>
+
+    <section class="features">
+      <h2>¿Cómo funciona InfoDerecho?</h2>
+      <div class="features__row">
+        <article class="card feature">
+          <div class="feature__head">
+            <span class="feature__icon"><img src="assets/icons/check-circle.svg" alt=""></span>
+            <h3>1. Ingrese datos básicos</h3>
+          </div>
+          <p>Responda un breve cuestionario completamente anónimo sobre la composición de su hogar, municipio y nivel socioeconómico.</p>
+        </article>
+        <article class="card feature">
+          <div class="feature__head">
+            <span class="feature__icon"><img src="assets/icons/shield-alert.svg" alt=""></span>
+            <h3>2. Filtro automático</h3>
+          </div>
+          <p>Calculamos al instante cuáles programas de asistencia del Estado (Renta Ciudadana, Devolución del IVA, etc.) se adaptan a su situación.</p>
+        </article>
+        <article class="card feature">
+          <div class="feature__head">
+            <span class="feature__icon"><img src="assets/icons/map-pin.svg" alt=""></span>
+            <h3>3. Guía de postulación</h3>
+          </div>
+          <p>Le indicamos paso a paso los requisitos exactos, los canales oficiales de contacto y la ubicación de las oficinas de su alcaldía local.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="trust">
+      <span class="trust__icon"><img src="assets/icons/shield-check.svg" alt=""></span>
+      <div>
+        <h3>Fuentes de Información Oficiales y Actualizadas</h3>
+        <p>Toda la normativa y los umbrales de elegibilidad se actualizan periódicamente con base en las publicaciones oficiales del DANE, DNP y el Departamento para la Prosperidad Social de Colombia.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <p class="footer__brand-name">InfoDerecho Colombia</p>
+        <p>Información clara, gratuita e independiente sobre programas sociales del Estado colombiano. Facilitamos el entendimiento de sus derechos fundamentales.</p>
+      </div>
+      <hr class="footer__rule footer__rule--mid">
+      <div class="footer__sources">
+        <p class="footer__sources-title">FUENTES OFICIALES UTILIZADAS:</p>
+        <p>DANE (Línea de Pobreza Monetaria) · Departamento de Prosperidad Social (DPS) · Departamento Nacional de Planeación (DNP) · SISBÉN IV.</p>
+      </div>
+    </div>
+    <hr class="footer__rule">
+    <div class="footer__bottom">
+      <p class="footer__legal">Atención: Este es un portal informativo e independiente. No realizamos trámites de inscripción ni somos un canal oficial del Gobierno de Colombia.</p>
+      <p class="footer__copy">© 2026 InfoDerecho Colombia.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
